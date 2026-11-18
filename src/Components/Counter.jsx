@@ -9,10 +9,10 @@ const Counter = () => {
   //status check funtion
   const checkStatus=()=>{
     if(count > 0){
-      return "Positive Lumber";
+      return "Positive Number";
     }
     else if (count < 0){
-      return "Negative Lumber";
+      return "Negative Number";
     }
     else{
       return "Zero";
