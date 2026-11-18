@@ -1,0 +1,95 @@
+
+/* Main Table */
+.table {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1B1B1B;
+    border: 1px solid orangered;
+    border-radius: 12px;
+    box-shadow: 0 0 8px orangered;
+}
+
+/* Table Styling */
+.table :global(table) {
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Table Heading */
+.table :global(th) {
+    background-color: #111111;
+    color: orangered;
+    padding: 15px;
+    border: 1px solid orangered;
+}
+
+/* Table Data */
+.table :global(td) {
+    background-color: #1B1B1B;
+    color: white;
+    padding: 12px;
+    border: 1px solid #555555;
+}
+
+/* Table Hover */
+.table :global(tbody tr:hover td) {
+    background-color: #292929;
+    color: orangered;
+    transition: 0.3s ease;
+}
+
+/* Go Back Button Container */
+.btn {
+    margin-top: 20px;
+}
+
+/* Go Back Button */
+.btn button {
+    padding: 10px 25px;
+    background: transparent;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 0 5px orangered;
+    transition: all 0.4s ease;
+}
+
+/* Button Hover */
+.btn button:hover {
+    background-color: orangered;
+    color: white;
+    border-color: white;
+    box-shadow: 0 3px 15px orangered;
+    transform: translateY(-4px) scale(1.05);
+}
+
+/* Button Click */
+.btn button:active {
+    transform: translateY(0) scale(0.97);
+}
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+    .table {
+        padding: 5px;
+    }
+
+    .table :global(th),
+    .table :global(td) {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .btn button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}

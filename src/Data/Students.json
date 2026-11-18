@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 1,
+        "name" : "Daniyal",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 2,
+        "name" : "Abdul Mannan",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 3,
+        "name" : "Jasir",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 4,
+        "name" : "Baneen",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 5,
+        "name" : "Misbah",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 6,
+        "name" : "Neha",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 7,
+        "name" : "Nizam",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 8,
+        "name" : "Azan",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 9,
+        "name" : "Arqam",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 10,
+        "name" : "Aiesh",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 11,
+        "name" : "Rauf",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    },
+        {
+        "id" : 12,
+        "name" : "Hamdan",
+        "age" : 100,
+        "Teacher" : "Sir Muhammad Usaid",
+        "batch" : "2025005C+04C+03C"
+    }
+]

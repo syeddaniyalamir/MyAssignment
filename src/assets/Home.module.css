@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px White;
+    background: transparent;
+    color: transparent;
+    letter-spacing: 5px;
+    line-height: 2;
+
+}
+
+.container h1 span {
+    transition: all 0.5s ease;
+    color: orangered;
+    cursor: pointer;
+}
+
+.container h1 span:hover {
+    color: rgb(255, 255, 255);
+}
+
+.underline {
+    border: 1px solid;
+    color: white;
+    width: 50%;
+    margin: 10px;
+    box-shadow: 0 4px 10px orangered;
+}
+.underline2 {
+    border: 1px solid;
+    color: white;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0 -4px 10px orangered;
+}
+
+
+.container p {
+    text-align: center;
+    line-height: 2;
+    padding: 10px 20px;
+}
+
+.btn {
+    display: flex;
+    gap: 30px;
+}
+
+.btn button {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    box-shadow: 0 0 3px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn button:hover {
+    box-shadow: 0 3px 10px;
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+    border: 2px solid white;
+    transform: translateY(-4px)scale(1.05);
+}
+
+.btn button:active {
+    box-shadow: 0 0 10px;
+    transform: translateY(0)scale(0.97);
+}
+
+.footer {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.footer h6 {
+    letter-spacing: 2px;
+}
+
+.footer h5 {
+    letter-spacing: 2px;
+}
+
+.footer strong {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: rgba(255, 68, 0, 0.553);
+}
+.footer strong:hover {
+    color: rgba(10, 244, 37, 0.701);
+}
+.footer small{
+    display: block;
+    background-color: grey;
+    width: 100%;
+    line-height: 2.5;
+    margin-top: 3px;
+}

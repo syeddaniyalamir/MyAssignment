@@ -1,0 +1,146 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: transparent;
+    color: white;
+    gap: 15px;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    letter-spacing: 5px;
+    line-height: 2;
+    text-shadow: 0 0 10px orangered;
+}
+
+.container h2 {
+    font-size: 80px;
+    font-weight: 800;
+    color: orangered;
+    text-shadow: 0 0 10px orangered;
+    transition: all 0.3s ease;
+}
+
+.container h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 8px orangered;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn button {
+    position: relative;
+    overflow: hidden;
+    padding: 12px 25px;
+    margin: 10px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 0 5px orangered;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn button:hover {
+    box-shadow: 0 3px 15px orangered;
+    color: white;
+    background-color: orangered;
+    border: 2px solid white;
+    transform: translateY(-4px) scale(1.05);
+}
+
+.btn button:active {
+    box-shadow: 0 0 10px orangered;
+    transform: translateY(0) scale(0.97);
+}
+
+@media (max-width: 500px) {
+    .container h1 {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .container h2 {
+        font-size: 60px;
+    }
+
+    .container h3 {
+        font-size: 16px;
+    }
+
+    .btn {
+        gap: 5px;
+    }
+
+    .btn button {
+        padding: 10px 15px;
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn2 button {
+    position: absolute;
+    bottom: 12px;
+    width: 50%;
+    padding: 12px 25px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px orangered;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn2 button:hover {
+    background-color: orangered;
+    border: 2px solid white;
+    box-shadow: 0 0 15px orangered;
+    transform: translateY(-4px) scale(1.03);
+}
+
+.btn2 button:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: 0 0 10px orangered;
+}
+
+@media (max-width: 500px) {
+    .btn2 button {
+        width: 80%;
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
