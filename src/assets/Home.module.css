@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
     align-items: center;
@@ -14,7 +15,6 @@
     color: transparent;
     letter-spacing: 5px;
     line-height: 2;
-
 }
 
 .container h1 span {
@@ -34,6 +34,7 @@
     margin: 10px;
     box-shadow: 0 4px 10px orangered;
 }
+
 .underline2 {
     border: 1px solid;
     color: white;
@@ -41,7 +42,6 @@
     margin: 20px;
     box-shadow: 0 -4px 10px orangered;
 }
-
 
 .container p {
     text-align: center;
@@ -75,12 +75,12 @@
     color: rgb(255, 255, 255);
     background-color: orangered;
     border: 2px solid white;
-    transform: translateY(-4px)scale(1.05);
+    transform: translateY(-4px) scale(1.05);
 }
 
 .btn button:active {
     box-shadow: 0 0 10px;
-    transform: translateY(0)scale(0.97);
+    transform: translateY(0) scale(0.97);
 }
 
 .footer {
@@ -105,13 +105,119 @@
     transition: all 0.5s ease;
     color: rgba(255, 68, 0, 0.553);
 }
+
 .footer strong:hover {
     color: rgba(10, 244, 37, 0.701);
 }
-.footer small{
+
+.footer small {
     display: block;
     background-color: grey;
     width: 100%;
     line-height: 2.5;
     margin-top: 3px;
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    .container p {
+        font-size: 14px;
+        line-height: 1.7;
+        padding: 10px;
+    }
+
+    .btn {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn button {
+        margin: 5px;
+        padding: 9px 15px;
+    }
+
+    .footer {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .underline2 {
+        margin: 20px 0;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .container {
+        min-height: 100svh;
+        height: auto;
+        box-sizing: border-box;
+        padding: 25px 15px 0;
+    }
+
+    .container h1 {
+        font-size: 23px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .underline {
+        width: 75%;
+    }
+
+    .container p {
+        font-size: 13px;
+        line-height: 1.6;
+        padding: 10px 5px;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .btn button {
+        width: 180px;
+        margin: 3px;
+        padding: 10px;
+    }
+
+    .underline2 {
+        width: 100%;
+        margin: 25px 0 15px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: auto;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .footer h5 {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .footer h6 {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .footer small {
+        font-size: 10px;
+    }
 }
